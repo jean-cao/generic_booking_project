@@ -1,0 +1,29 @@
+{
+  "name": "generic_project_booking",
+  "version": "1.0.0",
+  "description": "Learn some basics with graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jean-cao/generic_booking_project.git"
+  },
+  "author": "jean Cao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jean-cao/generic_booking_project/issues"
+  },
+  "homepage": "https://github.com/jean-cao/generic_booking_project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
